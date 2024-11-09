@@ -5,7 +5,7 @@ import { app } from "./app.js";
 
 dotenv.config({path:".env"})
 
-let port = process.env.PORT || 2001
+let port = 2001
 
 DBConnection()
 .then( ()=>{

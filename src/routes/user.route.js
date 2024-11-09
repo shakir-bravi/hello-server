@@ -6,6 +6,6 @@ const router = Router()
 
 
 router.route("/").get(Register)
-router.route("/login", LoginUser)
+router.route("/login").get(LoginUser)
 
 export {router }
