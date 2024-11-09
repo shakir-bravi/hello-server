@@ -17,4 +17,17 @@ const Register =  asyncHandler ( async (req,res)=>{
     
 })
 
-export {Register}
+
+
+const LoginUser = asyncHandler (async (req,res,next)=>{
+    console.log(req.url);
+
+
+    res
+    .status(200)
+    .json(
+        new APIResponse("Login User Success !!!!" , "Login Succsess" , 202 )
+    )
+    
+})
+export {Register , LoginUser}
