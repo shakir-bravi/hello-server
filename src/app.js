@@ -20,7 +20,7 @@ import { router } from "./routes/user.route.js";
 
 // Routes Declaration
 
-app.use("/api",router);
+app.use("/",router);
 
 
 export {app}
